@@ -85,7 +85,6 @@ button{
     border: none;
     border-radius: 5px;
     transition: ease-in;
-    box-shadow: 0 1px 3px 0px rgb(12, 88, 87);
 }
 button:hover{
     background-color: hsl(71, 98%, 51%);
@@ -94,12 +93,12 @@ button:hover{
 .why-us{
     max-width: 100%;
     width: 50%;
-    height: 100%;
+    max-height: 100%;
     background-color: rgb(74, 190, 189);
     padding-left: 27px;
     padding-top: 20px;
     padding-right: 30px;
-    padding-bottom: 5%;
+    padding-bottom: 2.3%;
     border-radius: 0 0 5px 0;
 }
 .why-us p{
@@ -125,11 +124,11 @@ button:hover{
         width: 100%;
     }
     .monthly{
-        width: 92.5%;
+        width: 92%;
         border-radius: 0;
     }
     .why-us{
-        width: 92.5%;
+        width: 92%;
     }
 }
 @media(max-width:480px){
@@ -192,6 +191,20 @@ button:hover{
     }
 }
 @media(max-height:760px){
+    .why-us{
+        height: 228px;
+        
+    }
+}
+
+@media(max-height:1440px){
+    .why-us{
+        height: 210.5px;
+        
+    }
+}
+
+@media(max-height:1024px){
     .why-us{
         height: 228px;
         
